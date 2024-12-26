@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+.icon-bg{
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  width: 170px;
+  margin-right: -3px;
+}
+  .app-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+  }
+  .sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .logo {
+    width: 47px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+  }
+  .image-icon {
+    display: flex
+;
+}
+  
+  .user-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .sidebar-footer {
+    margin-top: 57%;
+    padding-top: 16px;
+    border-top: 1px solid #ddd;
+  }
+  .footer-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    cursor: pointer;
+  }
+  .footer-item .menu-icon {
+    font-size: 1.2rem;
+    margin-right: 8px;
+
+  }
+  .footer-item span {
+    font-size: 0.9rem;
+  }
+  .footer-link {
+    margin: 8px 0;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  .sidebar-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+.home-section{
+  background-color:#1570EF;
+  color: white;
+  padding: 5px;
+}  
+  .sidebar-menu li {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    cursor: pointer;
+  }
+  .home-icon{
+    font-size: 1.2rem;
+    margin-right: 8px;
+    filter: brightness(0) invert(1);
+    margin-left: 4px;
+  }
+  .sidebar-menu li .menu-icon {
+    font-size: 1.2rem;
+    margin-right: 8px;
+  }
+  
+  .menu-header {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 28px;
+    margin-top: 8px;
+  }
+  
+ 
+  
+  .support-btn,
+  .logout-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .support-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .logout-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  .content {
+    flex: 1;
+    padding: 11px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .header-controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .refresh-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color:black;
+    background-color: white;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #D5D7DA;
+    height: 28px;
+    width: 100px;
+    border-width: 2px;
+    padding: 5px;
+    font-size: 18px;
+}
+  .refresh-icon{
+    font-size: 1.2rem;
+  margin-right: 8px;
+  color: #007bff; 
+  }
+  .refresh-section span {
+    font-size: 12px;
+    font-weight: normal;
+    color: #414651;
+  }
+  
+  .refresh-btn,
+  .add-repo-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    height: 35px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  
+  .repository-search {
+    margin: 8px 0;
+  }
+  .repo-name{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+  }
+  .repository-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .repository-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 12px;
+    height: 80px;
+    margin-bottom: 8px;
+  }
+  
+  .repo-details {
+    display: flex;
+    gap:5px;
+    align-items: center;
+  }
+  
+  .repo-type {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+  
+  .repo-type.public {
+    background-color: #B2DDFF;
+    color: #175CD3;
+    border-radius: 20px;
+    border: 1px solid;  
+}
+.repository-content-alignment{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+.database-image{
+  margin-top: 8px;
+  height: 11px;
+  width: 10px;
+}
+.database-content-alignment{
+  
+  display: flex;
+  gap: 5px;
+}
+.repo-dot{
+  color: #1570EF;
+  font-weight: bold;
+} 
+  .repo-type.private {
+    background-color: #B2DDFF;
+    color: #175CD3;
+    border-radius: 20px;
+    border: 1px solid;
+  }
+
+  .repository-search {
+    position: relative;
+  }
+  
+  .search-input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    width: 29%;
+    padding: 2px 40px 4px 43px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .search-icon {
+    position: absolute;
+    /* right: 24px; */
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    left: 17px;
+    top: 6px;
+}
+.menu-icon {
+    width: 20px;
+    margin-right: 15px;
+  }
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    width: 30px;
+    height: 20px;
+    justify-content: space-between;
+    margin: 15px;
+    cursor: pointer;
+  }
+  
+  .hamburger-menu span {
+    width: 100%;
+    height: 4px;
+    background-color: #333;
+    border-radius: 2px;
+  }
+  .sidebar.open {
+    left: 0; 
+  }
+  
+  .content.sidebar-visible {
+    transition: margin-left 0.3s ease;
+  }
+  .overlay.active {
+    display: block;
+  }
+
+  
+  @media (max-width: 768px) {
+    .logo {
+        width: 40px;
+    }
+    .home-icon{
+     filter: none;
+    }
+    .hamburger-menu {
+        display: flex;
+        margin-left: 90%;
+      }
+    .sidebar {
+      width: 200px;
+    }
+    .sidebar.open {
+        left: 0;
+      }
+    .search-bar {
+        width: 91%;
+    }
+  
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-controls {
+      margin-top: 8px;
+    }
+
+
+    .hamburger-menu {
+      display: flex;
+      position: absolute;
+      right: 16px;
+      top: 16px;
+    }
+  
+    .sidebar {
+      width: 100%; 
+    }
+  
+    .content.sidebar-visible {
+      margin-left: 0; 
+    }
+  }
+
+  @media(max-width:480px){
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 85%;
+      z-index: 999;
+  }
+  .icon-bg {
+    color: #0f0d0d;
+    background: #f8f9fa;
+    
+  }
+  .sidebar-footer {
+     margin-top: 0;
+  }
+  .repository-content-alignment {
+    gap: 8px;
+}
+.repo-dot {
+  font-size: 20px;
+}
+.database-image {
+  margin-top: 8px;
+}
+p {
+  font-size: 17px;
+}
+  }
