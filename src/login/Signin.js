@@ -73,7 +73,7 @@ function Signin() {
                 <img src={icon} alt="CodeAnt AI Logo" className="mb-3" width={35} />
                  <h3 className="ai">CodeAnt AI</h3>
                 </div>
-                <h3>Welcome to CodeAnt AI</h3>
+                <h3 className="welcome">Welcome to CodeAnt AI</h3>
             </div>
           <div className="tab-buttons">
             <button

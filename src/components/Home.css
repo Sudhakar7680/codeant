@@ -40,7 +40,7 @@ body {
   }
   
   .logo {
-    width: 47px;
+    width: 37px;
     margin-bottom: 12px;
     margin-right: 10px;
   }
@@ -334,7 +334,7 @@ body {
   
   @media (max-width: 768px) {
     .logo {
-        width: 40px;
+        width: 30px;
     }
     .home-icon{
      filter: none;
