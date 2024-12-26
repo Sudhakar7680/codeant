@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "./Signin.css";
-import icon from '../assets/icon.png';
-import github from "../assets/github.png";
-import bitbucket from "../assets/bitbucket.png";
-import devops from "../assets/devops.png";
-import gitlab from "../assets/gitlab.png";
-import sso from "../assets/sso.png";
-import group from '../assets/groups.png';
-import subtract from '../assets/subtract.png';
-import line from '../assets/line.png';
+import icon from '../assets/icon.svg';
+import github from "../assets/github.svg";
+import bitbucket from "../assets/bitbucket.svg";
+import devops from "../assets/devops.svg";
+import gitlab from "../assets/gitlab.svg";
+import sso from "../assets/sso.svg";
+import group from '../assets/groups.svg';
+import subtract from '../assets/subtract.svg';
+import line from '../assets/line.svg';
 
 function Signin() {
   const [activeTab, setActiveTab] = useState("SAAS");
@@ -25,7 +25,7 @@ function Signin() {
                 src={icon}
                 alt="AI Logo"
                 className="ai-logo"
-                style={{ height: "40px",width:"36px", marginRight: "10px" }}
+                style={{  marginRight: "10px" }}
               />
               <h5 className="card-title">AI to Detect & Autofix Bad Code</h5>
               {/* <img src={line} alt="horizontal Line" className="line"/> */}
@@ -59,7 +59,7 @@ function Signin() {
             </div>
             <div className="growth ">
             <h6>Issues Fixed</h6>
-            <h2>500K+</h2>
+            <h2 className="increase">500K+</h2>
             </div>
           </div>
           <img src={subtract} alt="subtract" className="sub"/>
@@ -70,8 +70,8 @@ function Signin() {
             <div className="enter">
             <div className="center">
                 <div className=" code d-flex align-items-center">
-                <img src={icon} alt="CodeAnt AI Logo" className="mb-3" width={40} />
-                 <h3>CodeAnt AI</h3>
+                <img src={icon} alt="CodeAnt AI Logo" className="mb-3" width={35} />
+                 <h3 className="ai">CodeAnt AI</h3>
                 </div>
                 <h3>Welcome to CodeAnt AI</h3>
             </div>

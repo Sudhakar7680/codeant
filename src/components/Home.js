@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import './Home.css';
-import icon from "../assets/icon.png";
-import home from '../assets/home.png';
-import code from '../assets/frame3.png';
-import cloud from '../assets/frame1.png';
-import use from '../assets/frame2.png';
-import setting from '../assets/frame4.png';
-import support from '../assets/frame5.png';
-import logout from '../assets/frame6.png';
-import database from '../assets/database.png';
-import refresh from '../assets/refresh.png';
-import search from '../assets/searchs.png';
+import icon from "../assets/icon.svg";
+import home from '../assets/home.svg';
+import code from '../assets/frame3.svg';
+import cloud from '../assets/frame1.svg';
+import use from '../assets/frame2.svg';
+import setting from '../assets/frame4.svg';
+import support from '../assets/frame5.svg';
+import logout from '../assets/frame6.svg';
+import database from '../assets/database.svg';
+import refresh from '../assets/refresh.svg';
+import search from '../assets/search.svg';
 
 const repositories = [
   { name: 'design-system', type: 'Public', language: 'React', size: '7320 KB', updated: '1 day ago' },
@@ -97,8 +97,8 @@ const Home = () => {
 
         <header className="header">
           <div>
-            <h1>Repositories</h1>
-            <p>33 total repositories</p>
+            <h1 className='rep'>Repositories</h1>
+            <p className='total'>33 total repositories</p>
           </div>
           <div className="header-controls">
             <div className="refresh-section">
